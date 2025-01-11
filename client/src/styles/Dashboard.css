@@ -1,0 +1,110 @@
+/* Dashboard Styles */
+.dashboard {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard .content-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .dashboard h2 {
+    font-size: 2.25rem; /* 36px */
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard h3 {
+    font-size: 1.75rem; /* 28px */
+    font-weight: 600;
+    color: #4b5563; /* Dark gray */
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #4b5563; /* Border under the title */
+    padding-bottom: 8px;
+  }
+  
+  .dashboard p {
+    font-size: 1rem; /* 16px */
+    color: #333;
+  }
+  
+  .dashboard p strong {
+    font-weight: 600;
+    color: #1f2937; /* Darker text for the labels */
+    padding: 4px;
+    border: 1px solid #d1d5db; /* Add border to labels */
+    border-radius: 4px;
+  }
+  
+  /* Highlighting major gaps, recommended resources, and learning strategy */
+  .dashboard .highlight-analysis {
+    background-color: #ffeeba; /* Soft yellow background */
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #5f3b00; /* Darker yellow-brown text */
+    border: 2px solid #ffcc00; /* Highlight border */
+  }
+  
+  .dashboard .bg-gray-100 {
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  .dashboard .shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .dashboard .text-center {
+    text-align: center;
+  }
+  
+  .dashboard .py-10 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .dashboard .px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .dashboard .text-3xl {
+    font-size: 2.25rem; /* 36px */
+  }
+  
+  .dashboard .font-bold {
+    font-weight: 700;
+  }
+  
+  .dashboard .font-semibold {
+    font-weight: 600;
+  }
+  
+  .dashboard .text-2xl {
+    font-size: 1.75rem; /* 28px */
+  }
+  
+  .dashboard .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard .text-xl {
+    font-size: 1.25rem; /* 20px */
+  }
+  
+  /* Add padding between paragraphs */
+  .dashboard p + p {
+    margin-top: 15px;
+  }
+  

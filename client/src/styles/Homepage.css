@@ -1,0 +1,109 @@
+/* Save this in Homepage.css */
+
+/* General Styles */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #f3f4f6);
+    color: #333;
+}
+
+.max-w-3xl {
+    max-width: 750px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.text-indigo-600 {
+    color: #4f46e5;
+}
+
+.text-blue-600 {
+    color: #2563eb;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #4f46e5;
+    animation: zoomInOutt 2.5s ease-in-out infinite;
+}
+
+h1 span {
+    color: #2563eb;
+    font-style: italic;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+
+/* Button Styling */
+a {
+    background-color: #2563eb;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes zoomInOutt {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    a {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    a {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}
