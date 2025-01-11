@@ -1,5 +1,5 @@
 
-#LetsUpgrade-SkillsBooster : AI-Powered Learning Management System (LMS)
+## LetsUpgrade-SkillsBooster : AI-Powered Learning Management System (LMS)
 
 An advanced Learning Management System built with the MERN stack (MongoDB, Express, React, Node.js), designed to provide personalized and AI-driven learning experiences.
 
